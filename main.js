@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('#news-carousel').carousel({interval: false});
     $('#videos-carousel').carousel({interval: false});
     $('#testimonials-carousel').carousel({interval: 6000, pause: "hover"});
-    $('#awards-carousel').carousel({interval: false});
+    $('#awards-carousel').carousel({interval: 6000});
     
     
     /* ======= Flickr PhotoStream ======= */
