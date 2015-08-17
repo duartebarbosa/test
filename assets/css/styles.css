@@ -1839,10 +1839,10 @@ ul.custom-list-style li {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .home-page .testimonials .carousel .item {
-    min-height: 298px;
+    min-height: 320px;
   }
   .home-page .events .section-content {
-    min-height: 520px;
+    min-height: 325px;
   }
   .home-page .video .video-iframe {
     height: 459px;
