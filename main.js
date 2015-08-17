@@ -15,25 +15,8 @@ $(document).ready(function() {
     $('#videos-carousel').carousel({interval: false});
     $('#testimonials-carousel').carousel({interval: 6000, pause: "hover"});
     $('#awards-carousel').carousel({interval: 6000});
-    
-    
-    /* ======= Flickr PhotoStream ======= */
-    $('#flickr-photos').jflickrfeed({
-        limit: 12,
-        qstrings: {
-        id: '32104790@N02' /* Use idGettr.com to find the flickr user id */
-        },
-        itemTemplate:
-            '<li>' +
-            '<a rel="prettyPhoto[flickr]" href="{{image}}" title="{{title}}">' +
-            	'<img src="{{image_s}}" alt="{{title}}" />' +
-            '</a>' +
-            '</li>'
-			
-    }, function(data) {
-    	$('#flickr-photos a').prettyPhoto();
-    });
-    
+
+
     /* ======= Pretty Photo ======= */
     // http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/ 
     $('a.prettyphoto').prettyPhoto();
