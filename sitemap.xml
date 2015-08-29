@@ -4,9 +4,106 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 <url>
   <loc>http://www.muziekvooreenleven.nl/</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/index.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/contact.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/book.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/donate.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/about.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/why.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/projects.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/team.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news0.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news1.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news2.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news4.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news5.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news6.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/children.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/ill.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/elderly.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.muziekvooreenleven.nl/news3.html</loc>
+  <lastmod>2015-08-29T20:16:25+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>
