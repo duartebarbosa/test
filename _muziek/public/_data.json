@@ -1,5 +1,63 @@
 {
   "index": {
     "title": "Muziek voor een Leven"
+  },
+  "about": {
+  	"title": "About Muziek voor een Leven"
+  },
+  "book": {
+  	"title": "Book a concert with Muziek voor een Leven"
+  },
+  "children": {
+  	"title": "Children Project in Muziek voor een Leven"
+  },
+  "contact": {
+  	"title": "Contact Muziek voor een Leven"
+  },
+  "donate": {
+  	"title": "Donate to Muziek voor een Leven"
+  },
+  "elderly": {
+  	"title": "Elderly Project in Muziek voor een Leven"
+  },
+  "events": {
+  	"title": "Muziek voor een Leven events"
+  },
+  "ill": {
+  	"title": "Ill Children Project in Muziek voor een Leven"
+  },
+  "news": {
+  	"title": "News of Muziek voor een Leven"
+  },
+  "organization": {
+  	"title": "Organization of Muziek voor een Leven"
+  },
+  "projects": {
+  	"title": "Projects of Muziek voor een Leven"
+  },
+  "why": {
+  	"title": "Why music? - Muziek voor een Leven"
+  },
+  "news0": {
+  	"title": "Interactive Concert for Children!"
+  },
+  "news1": {
+  	"title": "Concerts in retirement houses"
+  },
+  "news2": {
+  	"title": "Concert in Belgium"
+  },
+  "news3": {
+  	"title": "Concert in Valkenburg"
+  },
+  "news4": {
+  	"title": "Concert in AZM Maastricht"
+  },
+  "news5": {
+  	"title": "Jam session with children affected with heavy disorders"
+  },
+  "news6": {
+  	"title": "Concert for children with autism and their families"
   }
+
 }
