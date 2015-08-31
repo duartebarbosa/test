@@ -1,0 +1,139 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left Concert for children with autism and their families
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li
+                a(href='news.html') News
+                i.fa.fa-angle-right
+              li.current Concert for children with autism and their families
+          // //breadcrumbs
+        .page-content
+          .row.page-row
+            .news-wrapper.col-md-8.col-sm-7
+              article.news-item
+                p.meta.text-muted
+                  | By: 
+                  a(href='#') Admin
+                  |  | Posted on: 21 Aug 2015
+                p
+                  | We are collaborating with Foundation Papageno and we performed a concert for children with autism and their families in Heel (Limburg).
+                p
+                  | We spent an evening at the Wigwamvallei in Heel were our quartet performed the Four Seasons of Vivaldi with the solo of Meri Khojayan and the narration of Veronika Juhasz.
+                  | The audience included children with autism and their families.
+                  | Members of the families thanked us at the end of the concert saying that they had never seen their children so concentrated and quiet.
+                iframe(width='560', height='315', src='https://www.youtube.com/embed/SqxxwcHfyKU', frameborder='0', allowfullscreen='')
+                div(style='width: 100%; float: left; position: relative;')
+                  img(src='./assets/images/news/foto5.jpg', alt='', style='width:inherit')
+            // //news-wrapper
+            aside.page-sidebar.col-md-3.col-md-offset-1.col-sm-4.col-sm-offset-1.col-xs-12
+              //
+                section class="widget has-divider">
+                <h3 class="title">Other News</h3>
+                <article class="news-item row">
+                <figure class="thumb col-md-2 col-sm-3 col-xs-3">
+                <img src="assets/images/news/news-thumb-1.jpg" alt="" />
+                </figure>
+                <div class="details col-md-10 col-sm-9 col-xs-9">
+                <h4 class="title"><a href="news-single.html">Morbi bibendum consectetuer vulputate sollicitudin</a></h4>
+                </div>
+                </article>
+                <article class="news-item row">
+                <figure class="thumb col-md-2 col-sm-3 col-xs-3">
+                <img src="assets/images/news/news-thumb-2.jpg" alt="" />
+                </figure>
+                <div class="details col-md-10 col-sm-9 col-xs-9">
+                <h4 class="title"><a href="news-single.html">Sed tincidunt urna eget turpis pretium hendrerit</a></h4>
+                </div>
+                </article>
+                <article class="news-item row">
+                <figure class="thumb col-md-2 col-sm-3 col-xs-3">
+                <img src="assets/images/news/news-thumb-3.jpg" alt="" />
+                </figure>
+                <div class="details col-md-10 col-sm-9 col-xs-9">
+                <h4 class="title"><a href="news-single.html">Duis scelerisque erat iaculis</a></h4>
+                </div>
+                </article>
+                <article class="news-item row">
+                <figure class="thumb col-md-2 col-sm-3 col-xs-3">
+                <img src="assets/images/news/news-thumb-4.jpg" alt="" />
+                </figure>
+                <div class="details col-md-10 col-sm-9 col-xs-9">
+                <h4 class="title"><a href="news-single.html">Duis scelerisque erat iaculis</a></h4>
+                </div>
+                </article>
+                </section
+              // //widget
+              //
+                section class="widget has-divider">
+                <h3 class="title">Upcoming Events</h3>
+                <article class="events-item row page-row">
+                <div class="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
+                <p class="date-label">
+                <span class="month">FEB</span>
+                <span class="date-number">18</span>
+                </p>
+                </div>
+                <div class="details col-md-9 col-sm-8 col-xs-8">
+                <h5 class="title">Open Day</h5>
+                <p class="time text-muted">10:00am - 18:00pm<br>East Campus</p>
+                </div>
+                </article>
+                <article class="events-item row page-row">
+                <div class="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
+                <p class="date-label">
+                <span class="month">SEP</span>
+                <span class="date-number">06</span>
+                </p>
+                </div>
+                <div class="details col-md-9 col-sm-8 col-xs-8">
+                <h5 class="title">E-learning at College Green</h5>
+                <p class="time text-muted">10:00am - 16:00pm<br>Learning Center</p>
+                </div>
+                </article>
+                <article class="events-item row page-row">
+                <div class="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
+                <p class="date-label">
+                <span class="month">JUN</span>
+                <span class="date-number">23</span>
+                </p>
+                </div>
+                <div class="details col-md-9 col-sm-8 col-xs-8">
+                <h5 class="title">Career Fair</h5>
+                <p class="time text-muted">09:45am - 16:00pm<br>Library</p>
+                </div>
+                </article>
+                </section
+              section.widget.has-divider(style='background:#fff')
+                h3.title Bank Transfer
+                p.adr
+                  span.adr-group
+                    strong IBAN:
+                    span.street-address NL17 RABO 0192341243
+                    br
+                    strong BIC:
+                    span.region RABONL2U
+                    br
+              // //widget
+              section.widget(style='background:#fff')
+                h3.title All Enquiries
+                p.tel
+                  i.fa.fa-phone
+                  | Tel: (+31) 634 355 529
+                p.email
+                  i.fa.fa-envelope
+                  | Email: 
+                  a(href='#') info@muziekvooreenleven.nl
+          // //page-row
+        // //page-content
+      // //page
+    // //content
+    // //wrapper

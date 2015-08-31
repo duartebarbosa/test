@@ -1,0 +1,43 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left Why Music?
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li.current Why
+          // //breadcrumbs
+        .page-content
+          .row
+            article.contact-form.col-md-8.col-sm-7.page-row
+              p
+                | Psychologists, neuroscientists, and experts in child development have demonstrated that music does more for children than bring them joy; it helps their brain cells make the connections needed for virtually every kind of intelligence.
+              h3.title EDUCATION &amp; THERAPEUTIC QUALITIES
+              p
+                | One of the main activities that activates, stimulates and uses the entire brain is music. Engagement in music programs:
+              ul
+                li Enhances fine motor skills
+                li Prepares the brain for achievement
+                li Fosters superior working memory
+                li Cultivates thinking skills
+                li Improves recall and retention of verbal information
+                li Boosts creativity, reading and English language skills
+                li Allows disengaged students to re-engage with learning
+                li Builds trust, confidence and resilience
+              strong FACT:
+              |  85% of children in The Netherlands have never been in a classical music concert.
+              div(style='width: 100%; float: left; margin-right: -100%; position: relative;')
+                img(src='./assets/images/0.png', alt='', style='width:inherit')
+                //
+                  p class="flex-caption">
+                  <span class="main">Donate now</span>
+                  <br>
+                  <span class="secondary clearfix">Help us enrich young people with music</span>
+                  </p
+            != partial("_testimonials.jade")

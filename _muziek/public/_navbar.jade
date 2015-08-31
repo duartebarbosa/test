@@ -1,0 +1,64 @@
+// ******HEADER******
+header.header
+  .header-main.container(style='padding: 15px 0px;')
+    h1.logo.col-md-4.col-sm-4
+      a(href='./')
+        img#logo(src='./logo3.png', alt='Muziek voor een Leven', style='width:400px')
+    .info.col-md-8.col-sm-8(style='padding-top:15px')
+      ul.menu-top.navbar-right.hidden-xs
+        li.divider
+          a(href='./') Home
+        li
+          a(href='./contact.html') Contact
+      br
+      .contact.pull-right
+        a.btn.btn-cta(href='./book.html') Book a concert
+        |                         
+        a.btn.btn-cta(href='./donate.html') Donate now
+// ******NAV******
+nav.main-nav(role='navigation')
+  .container
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-collapse')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    #navbar-collapse.navbar-collapse.collapse
+      ul.nav.navbar-nav.social-icons.pull-left
+        li
+          a(href='https://twitter.com/muziekveleven', style='padding-top:7px; padding-left:10px')
+            i.fa.fa-twitter
+        li
+          a(href='https://www.facebook.com/muziekvooreenleven', style='padding-top:7px; padding-left:10px')
+            i.fa.fa-facebook
+        li
+          a(href='https://www.youtube.com/channel/UCUntA9ZEzQAn28JpH-nJPhg', style='padding-top:7px; padding-left:10px')
+            i.fa.fa-youtube
+        li
+          a(href='./', style='padding-top:7px; padding-left:10px')
+            i.fa.fa-linkedin
+        li.row-end
+          a(href='https://plus.google.com/u/0/105282782323020169217/', style='padding-top:7px; padding-left:10px')
+            i.fa.fa-google-plus
+      ul.nav.navbar-nav.pull-right
+        li.active.nav-item
+          a(href='./') Home
+        li.nav-item.dropdown
+          a.dropdown-toggle(data-toggle='dropdown', data-hover='dropdown', data-delay='0', data-close-others='false', href='./')
+            | About 
+            i.fa.fa-angle-down
+          ul.dropdown-menu
+            li
+              a(href='./about.html') About Us
+            li
+              a(href='./why.html') Why Music?
+            li
+              a(href='./projects.html') Projects
+            li
+              a(href='./team.html') Organization
+        li.nav-item
+          a(href='./news.html') News
+        // li class="nav-item"><a href="./events.html">Events</a></li
+        li.nav-item
+          a(href='./contact.html') Contact

@@ -1,0 +1,37 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left Children
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li
+                a(href='projects.html') Projects
+                i.fa.fa-angle-right
+              li.current Children
+          // //breadcrumbs
+        .page-content
+          .row
+            article.contact-form.col-md-8.col-sm-7.page-row
+              p
+              h3.title Classical Music is Fun!
+              p
+                | The Project ''Classical Music is Fun!'’ aims to organize educational classical concerts for schools essentially a ''musical day'' where a group of musicians  with a different instruments (e.g. violin, cello, piano, guitar and flute) spends the time with children, gives a concert, explains about the instruments, sings together and makes educational music games. In all of these concert-sessions we are going to have a narrator who will create the verbal and visual interaction with the live music.
+                | It is an opportunity for the children to present in a live concert, learn more about music and arouse interest in classical music,
+                | At the end of the concert the children will also have an opportunity to play the different musical instruments.
+                | In this way they can see, listen and touch the music, become a part of all project and rise an interest to musical instrument.
+              div(style='width: 100%; float: left; margin-right: -100%; position: relative;')
+                img(src='./assets/images/article.jpg', alt='', style='width:inherit')
+                //
+                  p class="flex-caption">
+                  <span class="main">Donate now</span>
+                  <br>
+                  <span class="secondary clearfix">Help us enrich young people with music</span>
+                  </p
+            != partial("_testimonials.jade")

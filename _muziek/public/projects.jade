@@ -1,0 +1,64 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left Projects
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li.current Projects
+          // //breadcrumbs
+        .page-content
+          .page-row
+            p
+              | Stichting Muziek voor een Leven has three active projects.
+              br
+              |                             We organize educational concerts for children, therapeutic concerts for ill children and regular concerts for the elderly.
+              |                             Each type of concert has a different approach, please discover more here!
+          .row.page-row
+            .col-md-4.col-sm-4.col-xs-12.text-center
+              .album-cover
+                a(href='children.html')
+                  img.img-responsive(src='./assets/images/0b.png', alt='')
+                .desc
+                  h4
+                    small
+                      a(href='children.html') Children
+                  p
+                    | We organize educational concerts in schools.
+                    | During these concerts there is a classical quartet performing and a narrator creating the verbal interaction with the children.
+                    | It is an opportunity for the children to listen to a live concert, to learn more about music and to arouse interest in classical music.
+            .col-md-4.col-sm-4.col-xs-12.text-center
+              .album-cover
+                a(href='ill.html')
+                  img.img-responsive(src='./assets/images/6.jpg', alt='')
+                .desc
+                  h4
+                    small
+                      a(href='ill.html') Ill children
+                  p
+                    | We organize concerts in hospitals and rehabilitation centers.
+                    | These concerts are adapted to each situation and have a therapeutically goal.
+                    | We want to give these children moments of happiness trough music during their recovery period.
+            .col-md-4.col-sm-4.col-xs-12.text-center
+              .album-cover
+                a(href='elderly.html')
+                  img.img-responsive(src='./assets/images/2.jpg', alt='')
+                .desc
+                  h4
+                    small
+                      a(href='elderly.html') Elderly
+                  p
+                    | We organize concerts at retirement houses.
+                    | The concerts for elderly people have the goal to connect the young generation with the elderly generation.
+                    | These concerts always bring a big smile and moments of happiness!
+          // //page-row
+        // //page-content
+      // //page
+    // //content
+    // //wrapper

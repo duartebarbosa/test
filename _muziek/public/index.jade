@@ -1,0 +1,342 @@
+.wrapper
+  != partial("_navbar")
+  // ******CONTENT******
+  .content.container
+    #promo-slider.slider.flexslider
+      ul.slides
+        li
+          img(src='./assets/images/intro0.jpg', alt='')
+          |                         
+          p.flex-caption
+            a.btn.btn-cta.main(href='./donate.html') Donate now
+            |                             
+            br
+            |                             
+            span.secondary.clearfix Help us enrich children with music
+        |                     
+        li
+          img(src='./assets/images/11b.jpg', alt='')
+          |                         
+          p.flex-caption
+            a.btn.btn-cta.main(href='./donate.html') Donate now
+            |                             
+            br
+            |                             
+            span.secondary.clearfix Help us enrich ill children with music
+        |                     
+        li
+          img(src='./assets/images/intro1.jpg', alt='')
+          |                         
+          p.flex-caption
+            a.btn.btn-cta.main(href='./donate.html') Donate now
+            |                             
+            br
+            |                             
+            span.secondary.clearfix Help us enrich the elderly with music
+      // //slides
+    // //flexslider
+    section.promo.box.box-dark
+      .col-md-9
+        h1.section-heading Muziek voor een Leven?
+        |                     
+        p
+          | Muziek voor een Leven is an organization of young and professional musicians who want to invest their art for the benefit of society.
+          | Our mission is to contribute for the development of musical education in The Netherlands and provide the therapeutically qualities of music for the ones in need, such as the elderly and sick people.
+      |   
+      |                 
+      .col-md-3
+        a.btn.btn-cta(href='./about.html')
+          i.fa.fa-play-circle
+          | Learn more
+    // //promo
+    section.news
+      h1.section-heading.text-highlight
+        span.line Latest News
+      |      
+      |                 
+      .carousel-controls
+        a.prev(href='./#news-carousel', data-slide='prev')
+          i.fa.fa-caret-left
+        |                     
+        a.next(href='./#news-carousel', data-slide='next')
+          i.fa.fa-caret-right
+      // //carousel-controls
+      .section-content.clearfix
+        #news-carousel.news-carousel.carousel.slide
+          .carousel-inner
+            .item.active
+              .col-md-4.news-item
+                h2.title
+                  a(href='./news0.html') Concert for Children!
+                |                                     
+                img.thumb(src='assets/images/news/news-thumb-1.jpg', alt='')
+                |                                     
+                p
+                  | Our last educational concert in &apos;&apos;Kindcentrum Amby&apos;&apos; was reported by the newspaper &apos;&apos;De Limburguer&apos;&apos; and in the news of &lsquo;&rsquo;RTV Maastricht&rsquo;&rsquo;.
+                |                                     
+                a.read-more(href='./news0.html')
+                  | Read more
+                  i.fa.fa-chevron-right
+              // //news-item
+              .col-md-4.news-item
+                h2.title
+                  a(href='./news1.html') Concerts in retirement houses
+                |                                     
+                p
+                  | We are proud to announce that our first cycle of concerts in retirement houses was a huge success!
+                |                                     
+                a.read-more(href='./news1.html')
+                  | Read more
+                  i.fa.fa-chevron-right
+                |    
+                |                                     
+                img.thumb(src='assets/images/news/elderly-thumb.jpg', alt='')
+              // //news-item
+              .col-md-4.news-item
+                h2.title
+                  a(href='./news2.html') Concert in Belgium
+                |                                     
+                p
+                  | We crossed the borders of Belgium and with music enriched ill children at the UZ Leuven&rsquo;s pediatric department!
+                |                                     
+                a.read-more(href='./news2.html')
+                  | Read more
+                  i.fa.fa-chevron-right
+                |    
+                |                                     
+                img.thumb(src='assets/images/news/news-thumb-3.jpg', alt='')
+              // //news-item
+            // //item
+            .item
+              .col-md-4.news-item
+                h2.title
+                  a(href='./news4.html') Concert in AZM Maastricht
+                |                                     
+                img.thumb(src='assets/images/news/6-thumb.jpg', alt='')
+                |                                     
+                p
+                  | We were invited to participate at the inauguration of the new pediatric department from AZM Maastricht!
+                |                                     
+                a.read-more(href='./news4.html')
+                  | Read more
+                  i.fa.fa-chevron-right
+              // //news-item
+              .col-md-4.news-item
+                h2.title
+                  a(href='./news5.html') Jam session with children affected with heavy disorders
+                |                                     
+                p
+                  | We are collaborating with Foundation &lsquo;&rsquo;My Breath My Music&rsquo;&rsquo; which developed a special music instrument called the magic flute adapted to the physical conditions of the disabled children.
+                |                                     
+                a.read-more(href='./news5.html')
+                  | Read more
+                  i.fa.fa-chevron-right
+                |                                     
+                img.thumb(src='assets/images/news/11-thumb.jpg', alt='')
+              // //news-item
+              .col-md-4.news-item
+                h2.title
+                  a(href='./news6.html') Concert for children with autism and their families
+                |                                     
+                p
+                  | We are collaborating with Foundation Papageno and we performed a concert for children with autism and their families in Heel (Limburg).
+                |                                     
+                a.read-more(href='./news6.html')
+                  | Read more
+                  i.fa.fa-chevron-right
+                |                                     
+                img.thumb(src='assets/images/news/foto5-thumb.jpg', alt='')
+              // //news-item
+            // //item
+          // //carousel-inner
+        // //news-carousel
+      // //section-content
+    // //news
+    .row.cols-wrapper
+      //
+        div class="col-md-3">
+        <section class="events">
+        <h1 class="section-heading text-highlight"><span class="line">Events</span></h1>
+        <div class="section-content">
+        <div class="event-item">
+        <p class="date-label">
+        <span class="month">SEP</span>
+        <span class="date-number">15</span>
+        </p>
+        <div class="details">
+        <h2 class="title">Educational Concert</h2>
+        <p class="time"><i class="fa fa-clock-o"></i>10:00am</p>
+        <p class="location"><i class="fa fa-map-marker"></i>Maastricht</p>
+        </div>
+        </div>
+        <div class="event-item">
+        <p class="date-label">
+        <span class="month">OCT</span>
+        <span class="date-number">1</span>
+        </p>
+        <div class="details">
+        <h2 class="title">Private Concert</h2>
+        <p class="time"><i class="fa fa-clock-o"></i> 19:00 </p>
+        <p class="location"><i class="fa fa-map-marker"></i>Maastricht</p>
+        </div>
+        </div>
+        <a class="read-more" href="./events.html">All events<i class="fa fa-chevron-right"></i></a>
+        </div>
+        </section>
+        </div
+      .col-md-9
+        section.video
+          h1.section-heading.text-highlight
+            span.line Video Tour
+          |                         
+          .carousel-controls
+            a.prev(href='./#videos-carousel', data-slide='prev')
+              i.fa.fa-caret-left
+            |                             
+            a.next(href='./#videos-carousel', data-slide='next')
+              i.fa.fa-caret-right
+          // //carousel-controls
+          .section-content
+            #videos-carousel.videos-carousel.carousel.slide
+              .carousel-inner
+                .item.active
+                  iframe(width='825', height='287', src='https://www.youtube.com/embed/SSHLzfJlfG0', frameborder='0', allowfullscreen='')
+                  |                                         
+                  p
+                    a(href='https://www.youtube.com/embed/SSHLzfJlfG0') What do we do?
+                // //item
+                .item
+                  iframe(src='https://player.vimeo.com/video/131438492?color=ff0000&byline=0&portrait=0', width='525', height='287', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+                  |                                         
+                  p
+                    a(href='https://vimeo.com/131438492') Nieuws en Actualiteiten van maandag 22 juni 2015
+                    |  from 
+                    a(href='https://vimeo.com/tvmaastricht') RTV Maastricht
+                    |  on 
+                    a(href='https://vimeo.com') Vimeo
+                    | .
+                // //item
+              // //carousel-inner
+            // //videos-carousel
+          // //section-content
+        // //video
+      |                 
+      .col-md-3
+        section.testimonials
+          h1.section-heading.text-highlight
+            span.line  Testimonials
+          |                         
+          .carousel-controls
+            a.prev(href='#testimonials-carousel', data-slide='prev')
+              i.fa.fa-caret-left
+            |                             
+            a.next(href='#testimonials-carousel', data-slide='next')
+              i.fa.fa-caret-right
+          // //carousel-controls
+          .section-content
+            #testimonials-carousel.testimonials-carousel.carousel.slide
+              .carousel-inner
+                .item.active
+                  blockquote.quote
+                    p
+                      i.fa.fa-quote-left
+                      | The children got acquainted with classical music and they loved it! They were lying on the ground with closed eyes listening to beautiful music. Many thanks to Muziek voor een Leven for this valuable educational concert!
+                  |                                         
+                  .row
+                    p.people.col-md-8.col-sm-3.col-xs-8
+                      span.name Sielke Smeets
+                      br
+                      span.title Co&ouml;rdinator &amp; muziekdocent, Adelante Mytylschool
+                    |                                             
+                // //item
+                .item
+                  blockquote.quote
+                    p
+                      i.fa.fa-quote-left
+                      |                                             Emotional afternoon filled with Love and Music!! Please come back soon Muziek voor een Leven the children in the hospital loved you and your music!
+                  |                                         
+                  .row
+                    p.people.col-md-8.col-sm-3.col-xs-8
+                      span.name Sofie Salu
+                      br
+                      span.title  Pediatric Department UZ Leuven
+                    |                                             
+                // //item
+                .item
+                  blockquote.quote
+                    p
+                      i.fa.fa-quote-left
+                      |                                             November 13 was the opening of the new pediatric department of AZM. Muziek voor een Leven gave wonderful musical moments to our children!
+                  |                                         
+                  .row
+                    p.people.col-md-8.col-sm-3.col-xs-8
+                      span.name L. Limpens
+                      br
+                      span.title  Pediatric Department AZM
+                    |                                             
+                // //item
+              // //carousel-inner
+            // //testimonials-carousel
+          // //section-content
+        // //testimonials
+      // //col-md-3
+    // //cols-wrapper
+    section.awards
+      #awards-carousel.awards-carousel.carousel.slide
+        .carousel-inner
+          .item.active
+            ul.logos
+              li.col-md-2.col-sm-2.col-xs-4
+                a(href='./')
+                  img.img-responsive(src='./assets/images/sponsors/adelante.jpeg', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                a(href='./')
+                  img.img-responsive(src='./assets/images/sponsors/azm.gif', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                a(href='./')
+                  img.img-responsive(src='./assets/images/sponsors/Elisabeth-Strouven.jpg', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                a(href='./')
+                  img.img-responsive(src='./assets/images/sponsors/mu.jpg', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                a(href='./')
+                  img.img-responsive(src='./assets/images/sponsors/T-MOBILE.png', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                a(href='./')
+                  img.img-responsive(src='./assets/images/sponsors/rabobank.png', alt='')
+            // //slides
+          // //item
+          .item
+            ul.logos
+              li.col-md-2.col-sm-2.col-xs-4
+                img.img-responsive(src='./assets/images/sponsors/team.jpg', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                img.img-responsive(src='./assets/images/sponsors/limburger.gif', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                img.img-responsive(src='./assets/images/sponsors/rtv.jpg', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                img.img-responsive(src='./assets/images/sponsors/zuyd.jpg', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                img.img-responsive(src='./assets/images/sponsors/kannunik.jpg', alt='')
+              |                                 
+              li.col-md-2.col-sm-2.col-xs-4
+                img.img-responsive(src='./assets/images/sponsors/envida.png', alt='')
+            // //slides
+          // //item
+        // //carousel-inner
+        a.left.carousel-control(href='./#awards-carousel', data-slide='prev')
+          i.fa.fa-angle-left
+        |                     
+        a.right.carousel-control(href='./#awards-carousel', data-slide='next')
+          i.fa.fa-angle-right
+  // //content
+// //wrapper

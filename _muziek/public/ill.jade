@@ -1,0 +1,36 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left Ill Children
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li
+                a(href='projects.html') Projects
+                i.fa.fa-angle-right
+              li.current Ill Children
+          // //breadcrumbs
+        .page-content
+          .row
+            article.contact-form.col-md-8.col-sm-7.page-row
+              h3.title Concerts for ill children
+              p
+                | We organize special concerts and rehabilitation centers for children in hospitals.
+                | Some of our concerts took place in the Hospital of AZM (Maastricht) and in the Rinjdam Rehabilitation Center of Rotterdam.
+                | The aim of a project is to share moments of joy and happiness with the kids in poor wealth. It is also useful for their rehabilitation process for uplifting their emotional state of spirit trough music.
+                | The most rewarding feeling for us is when we see a smile in this children’s faces.
+              div(style='width: 100%; float: left; margin-right: -100%; position: relative;')
+                img(src='./assets/images/4.jpg', alt='', style='width:inherit')
+                //
+                  p class="flex-caption">
+                  <span class="main">Donate now</span>
+                  <br>
+                  <span class="secondary clearfix">Help us enrich young people with music</span>
+                  </p
+            != partial("_testimonials.jade")

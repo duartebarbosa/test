@@ -1,0 +1,97 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left Events
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li.current Events
+          // //breadcrumbs
+        .page-content
+          .row.page-row
+            .events-wrapper.col-md-8.col-sm-7
+              article.events-item.page-row.has-divider.clearfix
+                .date-label-wrapper.col-md-1.col-sm-2
+                  p.date-label
+                    span.month SEP
+                    span.date-number 15
+                // //date-label-wrapper
+                .details.col-md-11.col-sm-10
+                  h3.title Educational Concert
+                  p.meta
+                    span.time
+                      i.fa.fa-clock-o
+                      | 10:00am
+                    span.location
+                      i.fa.fa-map-marker
+                      a(href='#') Maastricht
+                  // p class="desc">Donec commodo felis nec eros mollis dignissim. Pellentesque scelerisque nisl eu erat condimentum, at pellentesque odio elementum. Praesent accumsan non quam vel vulputate. Nullam ac hendrerit quam, ut tincidunt felis. Praesent condimentum ut enim ut mattis.</p
+                // //details
+              // //events-item
+              article.events-item.page-row.has-divider.clearfix
+                .date-label-wrapper.col-md-1.col-sm-2
+                  p.date-label
+                    span.month OCT
+                    span.date-number 1
+                // //date-label-wrapper
+                .details.col-md-11.col-sm-10
+                  h3.title Private Concert
+                  p.meta
+                    span.time
+                      i.fa.fa-clock-o
+                      |  19:00
+                    span.location
+                      i.fa.fa-map-marker
+                      a(href='#') Maastricht
+                // //details
+              // //events-item
+              article.events-item.page-row.has-divider.clearfix
+                .date-label-wrapper.col-md-1.col-sm-2
+                  p.date-label
+                    span.month OCT
+                    span.date-number 22
+                // //date-label-wrapper
+                .details.col-md-11.col-sm-10
+                  h3.title Concert in the Retirement House Klevarie
+                  p.meta
+                    span.time
+                      i.fa.fa-clock-o
+                      | 17:00h
+                    span.location
+                      i.fa.fa-map-marker
+                      a(href='#') Retirement House Klevarie, Maastricht
+                // //details
+              // //events-item
+            // //events-wrapper
+            aside.page-sidebar.col-md-3.col-md-offset-1.col-sm-4.col-sm-offset-1
+              section.widget.has-divider(style='background:#fff')
+                h3.title Bank Transfer
+                p.adr
+                  span.adr-group
+                    strong IBAN:
+                    span.street-address NL17 RABO 0192341243
+                    br
+                    strong BIC:
+                    span.region RABONL2U
+                    br
+              // //widget
+              section.widget(style='background:#fff')
+                h3.title All Enquiries
+                p.tel
+                  i.fa.fa-phone
+                  | Tel: (+31) 634 355 529
+                p.email
+                  i.fa.fa-envelope
+                  | Email: 
+                  a(href='#') info@muziekvooreenleven.nl
+          // //page-row
+        // //page-content
+      // //page
+    // //content
+    // //wrapper

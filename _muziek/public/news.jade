@@ -1,0 +1,179 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left News
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li.current News
+          // //breadcrumbs
+        .page-content
+          .row.page-row
+            .news-wrapper.col-md-8.col-sm-7
+              article.news-item.page-row.has-divider.clearfix.row
+                figure.thumb.col-md-2.col-sm-3.col-xs-4
+                  img.img-responsive(src='assets/images/news/news-thumb-1.jpg', alt='')
+                .details.col-md-10.col-sm-9.col-xs-8
+                  h3.title
+                    a(href='news0.html') Interactive Concert for Children!
+                  p
+                    | Our last educational concert in ''Kindcentrum Amby'' was reported by the newspaper ''De Limburguer'' and in the news of ‘’RTV Maastricht’’.
+                  a.btn.btn-theme.read-more(href='news0.html')
+                    | Read more
+                    i.fa.fa-chevron-right
+              // //news-item
+              article.news-item.page-row.has-divider.clearfix.row
+                figure.thumb.col-md-2.col-sm-3.col-xs-4
+                  img.img-responsive(src='assets/images/news/elderly-thumb.jpg', alt='')
+                .details.col-md-10.col-sm-9.col-xs-8
+                  h3.title
+                    a(href='news1.html') Concerts in retirement houses
+                  p
+                    | We are proud to announce that our first cycle of concerts in retirement houses was a huge success!
+                  a.btn.btn-theme.read-more(href='news1.html')
+                    | Read more
+                    i.fa.fa-chevron-right
+              // //news-item
+              article.news-item.page-row.has-divider.clearfix.row
+                figure.thumb.col-md-2.col-sm-3.col-xs-4
+                  img.img-responsive(src='assets/images/news/news-thumb-3.jpg', alt='')
+                .details.col-md-10.col-sm-9.col-xs-8
+                  h3.title
+                    a(href='news2.html') Concert in Belgium
+                  p
+                    | We crossed the borders of Belgium and with music enriched ill children at the UZ Leuven’s pediatric department!
+                  a.btn.btn-theme.read-more(href='news2.html')
+                    | Read more
+                    i.fa.fa-chevron-right
+              // //news-item
+              article.news-item.page-row.has-divider.clearfix.row
+                figure.thumb.col-md-2.col-sm-3.col-xs-4
+                  img.img-responsive(src='assets/images/news/foto3-thumb.jpg', alt='')
+                .details.col-md-10.col-sm-9.col-xs-8
+                  h3.title
+                    a(href='news3.html') Concert in Valkenburg
+                  p
+                    | We started collaborating with Adelante and performed an educational concert for children with special needs in Valkenburg.
+                  a.btn.btn-theme.read-more(href='news3.html')
+                    | Read more
+                    i.fa.fa-chevron-right
+              // //news-item
+              article.news-item.page-row.has-divider.clearfix.row
+                figure.thumb.col-md-2.col-sm-3.col-xs-4
+                  img.img-responsive(src='assets/images/news/foto4-thumb.jpg', alt='')
+                .details.col-md-10.col-sm-9.col-xs-8
+                  h3.title
+                    a(href='news4.html') Concert in AZM Maastricht
+                  p
+                    | We were invited to participate at the inauguration of the new pediatric department from AZM Maastricht!
+                  a.btn.btn-theme.read-more(href='news4.html')
+                    | Read more
+                    i.fa.fa-chevron-right
+              // //news-item
+              article.news-item.page-row.has-divider.clearfix.row
+                figure.thumb.col-md-2.col-sm-3.col-xs-4
+                  img.img-responsive(src='assets/images/news/11-thumb.jpg', alt='')
+                .details.col-md-10.col-sm-9.col-xs-8
+                  h3.title
+                    a(href='news5.html') Jam session with children affected with heavy disorders
+                  p
+                    | We are collaborating with Foundation ‘’My Breath My Music’’ which developed a special music instrument called the magic flute adapted to the physical conditions of the disabled children.
+                  a.btn.btn-theme.read-more(href='news5.html')
+                    | Read more
+                    i.fa.fa-chevron-right
+              // //news-item
+              article.news-item.page-row.has-divider.clearfix.row
+                figure.thumb.col-md-2.col-sm-3.col-xs-4
+                  img.img-responsive(src='assets/images/news/foto5-thumb.jpg', alt='')
+                .details.col-md-10.col-sm-9.col-xs-8
+                  h3.title
+                    a(href='news6.html') Concert for children with autism and their families
+                  p
+                    | We are collaborating with Foundation Papageno and we performed a concert for children with autism and their families in Heel (Limburg).
+                  a.btn.btn-theme.read-more(href='news6.html')
+                    | Read more
+                    i.fa.fa-chevron-right
+              // //news-item
+              //
+                ul class="pagination">
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+                </ul
+            // //news-wrapper
+            aside.page-sidebar.col-md-3.col-md-offset-1.col-sm-4.col-sm-offset-1
+              //
+                section class="widget has-divider">
+                <h3 class="title">Upcoming Events</h3>
+                <article class="events-item row page-row">
+                <div class="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
+                <p class="date-label">
+                <span class="month">FEB</span>
+                <span class="date-number">18</span>
+                </p>
+                </div>
+                <div class="details col-md-9 col-sm-8 col-xs-8">
+                <h5 class="title">Open Day</h5>
+                <p class="time text-muted">10:00am - 18:00pm<br />East Campus</p>
+                </div>
+                </article>
+                <article class="events-item row page-row">
+                <div class="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
+                <p class="date-label">
+                <span class="month">SEP</span>
+                <span class="date-number">06</span>
+                </p>
+                </div>
+                <div class="details col-md-9 col-sm-8 col-xs-8">
+                <h5 class="title">E-learning at College Green</h5>
+                <p class="time text-muted">10:00am - 16:00pm<br />Learning Center</p>
+                </div>
+                </article>
+                <article class="events-item row page-row">
+                <div class="date-label-wrapper col-md-3 col-sm-4 col-xs-4">
+                <p class="date-label">
+                <span class="month">JUN</span>
+                <span class="date-number">23</span>
+                </p>
+                </div>
+                <div class="details col-md-9 col-sm-8 col-xs-8">
+                <h5 class="title">Career Fair</h5>
+                <p class="time text-muted">09:45am - 16:00pm<br />Library</p>
+                </div>
+                </article>
+                </section
+              section.widget.has-divider(style='background:#fff')
+                h3.title Bank Transfer
+                p.adr
+                  span.adr-group
+                    strong IBAN:
+                    span.street-address NL17 RABO 0192341243
+                    br
+                    strong BIC:
+                    span.region RABONL2U
+                    br
+              // //widget
+              section.widget(style='background:#fff')
+                h3.title All Enquiries
+                p.tel
+                  i.fa.fa-phone
+                  | Tel: (+31) 634 355 529
+                p.email
+                  i.fa.fa-envelope
+                  | Email: 
+                  a(href='#') info@muziekvooreenleven.nl
+          // //page-row
+        // //page-content
+      // //page
+    // //content
+    // //wrapper

@@ -1,0 +1,78 @@
+.wrapper
+  != partial("_navbar")
+    // ******CONTENT******
+    .content.container
+      .page-wrapper
+        header.page-heading.clearfix
+          h1.heading-title.pull-left Contact
+          .breadcrumbs.pull-right
+            ul.breadcrumbs-list
+              li.breadcrumbs-label You are here:
+              li
+                a(href='./') Home
+                i.fa.fa-angle-right
+              li.current Contact
+          // //breadcrumbs
+        .page-content
+          .row
+            article.contact-form.col-md-8.col-sm-7.page-row
+              h3.title Get in touch
+              p
+                | We’d love to hear from you. Use the following form or contact us directly by e-mail or telephone.
+              form
+                .form-group.name
+                  label(for='name') Name
+                  input#name.form-control(type='text', placeholder='Enter your name')
+                // //form-group
+                .form-group.email
+                  label(for='email')
+                    | Email
+                    span.required *
+                  input#email.form-control(type='email', placeholder='Enter your email')
+                // //form-group
+                .form-group.phone
+                  label(for='phone') Phone
+                  input#phone.form-control(type='tel', placeholder='Enter your contact number')
+                // //form-group
+                .form-group.message
+                  label(for='message')
+                    | Message
+                    span.required *
+                  textarea#message.form-control(rows='6', placeholder='Enter your message here...')
+                // //form-group
+                button.btn.btn-theme(type='submit') Send message
+            // //contact-form
+            aside.page-sidebar.col-md-3.col-md-offset-1.col-sm-4.col-sm-offset-1
+              section.widget.has-divider(style='background:#fff')
+                h3.title Postal Address
+                p.adr
+                  span.adr-group
+                    span.street-address André Severinweg 12
+                    br
+                    span.region Maastricht
+                    br
+                    span.postal-code 6214 PM
+                    br
+                    span.country-name Netherlands
+              // //widget
+              section.widget(style='background:#fff')
+                h3.title All Enquiries
+                p.tel
+                  i.fa.fa-phone
+                  | Tel: (+31) 634 355 529
+                p.email
+                  i.fa.fa-envelope
+                  | Email: 
+                  a(href='#') info@muziekvooreenleven.nl
+            // //page-sidebar
+          // //page-row
+          .page-row
+            article.map-section
+              h3.title How to find us
+              iframe(width='100%', height='450', frameborder='0', style='border:0', src='https://www.google.com/maps/embed/v1/place?q=André+Severinweg+12,+Maastricht,+Netherlands&key=AIzaSyBJZk9NUUfLbqbSa69u9s_yE_fH8Xt7XPE', allowfullscreen='')
+            // //map
+          // //page-row
+        // //page-content
+      // //page-wrapper
+    // //content
+    // //wrapper
