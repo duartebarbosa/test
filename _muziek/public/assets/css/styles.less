@@ -1,3 +1,161 @@
+
 @import "../plugins/pretty-photo/css/prettyPhoto.less";
-@import "_main.less";
+
+
+@import "theme-default.less";
+@import "base.less";
+@import "home.less";
+@import "courses.less";
+@import "events.less";
+@import "contact.less";
+@import "responsive.less";
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -220px;
+  /* equal to footer height */
+}
+.wrapper:after {
+  content: "";
+  display: block;
+  height: 220px;
+  /* must be the same height as footer */
+}
+.footer {
+  height: 220px;
+  /* must be the same height as footer */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 300;
+}
+a.btn-cta,
+.btn-cta {
+  background: #6091ba;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.33;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #6091ba;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+.date-label .date-number {
+  clear: left;
+  display: block;
+  padding-top: 5px;
+  font-size: 15px;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 500;
+}
+.promo-badge .percentage {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+.social-icons {
+  list-style: none;
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 0;
+}
+.header .menu-top li {
+  list-style: none;
+  float: left;
+  font-size: 11px;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+.header .contact {
+  font-size: 20px;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.main-nav .nav .nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Open Sans', arial, sans-serif;
+  z-index: 100;
+}
+.main-nav .nav .nav-item .dropdown-menu {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 0;
+  border: none;
+  padding: 0;
+  text-transform: none;
+  min-width: 220px;
+}
+.footer .footer-content {
+  padding: 30px 0px 0px 0px;
+  font-size: 12px;
+  min-height: 0px;
+}
+.footer .social {
+  margin: 0;
+  font-size: 18px;
+  float: right;
+  line-height: 2;
+}
+.footer .social a {
+  color: #a9a9a9;
+  padding-right:10px;
+}
+.footer .social a:hover {
+  color: #6091ba;
+}
+.flexslider .slides .flex-caption {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+@media (min-width: 992px) {
+  .home-page .testimonials .carousel .item {
+    min-height: 320px;
+  }
+  .home-page .events .section-content {
+    min-height: 325px;
+  }
+  .home-page .video .video-iframe {
+    height: 459px;
+  }
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -220px;
+    /* equal to footer height */
+  }
+  .wrapper:after {
+    content: "";
+    display: block;
+    height: 220px;
+    /* must be the same height as footer */
+  }
+  .footer {
+    height: 220px;
+    /* must be the same height as footer */
+  }
+}
+
 @import "_fonts.less";
