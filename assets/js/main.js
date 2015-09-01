@@ -7,7 +7,9 @@ $(document).ready(function() {
     });
 
     /* ======= jQuery Placeholder ======= */
-    $('input, textarea').placeholder();
+    if(window.location.origin == 'https://www.muziekvooreenleven.nl/contact.html'){
+        $('input, textarea').placeholder();
+    }
     
     
     /* ======= Carousels ======= */
