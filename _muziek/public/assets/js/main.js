@@ -27,7 +27,6 @@ $(document).ready(function() {
     $('[data-hover="dropdown"]').dropdownHover();
     
     /* Nested Sub-Menus mobile fix */
-    
     $('li.dropdown-submenu > a.trigger').on('click', function(e) {
         var current=$(this).next();
 		current.toggle();
