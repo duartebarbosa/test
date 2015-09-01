@@ -1,10 +1,10 @@
 // ******HEADER******
 header.header
-  .header-main.container(style='padding: 15px 0px;')
+  .header-main.container.header-custom
     h1.logo.col-md-4.col-sm-4
       a(href='./')
-        img#logo(src='./logo3.png', alt='Muziek voor een Leven', style='width:400px')
-    .info.col-md-8.col-sm-8(style='padding-top:15px')
+        img.header-custom-logo#logo(src='./logo3.png', alt='Muziek voor een Leven')
+    .info.col-md-8.col-sm-8.header-custom-2
       ul.menu-top.navbar-right.hidden-xs
         li.divider
           a(href='./') Home
@@ -27,19 +27,19 @@ nav.main-nav(role='navigation')
     #navbar-collapse.navbar-collapse.collapse
       ul.nav.navbar-nav.social-icons.pull-left
         li
-          a(href='https://twitter.com/muziekveleven', style='padding-top:7px; padding-left:10px')
+          a.header-social-links(href='https://twitter.com/muziekveleven')
             i.fa.fa-twitter
         li
-          a(href='https://www.facebook.com/muziekvooreenleven', style='padding-top:7px; padding-left:10px')
+          a.header-social-links(href='https://www.facebook.com/muziekvooreenleven')
             i.fa.fa-facebook
         li
-          a(href='https://www.youtube.com/channel/UCUntA9ZEzQAn28JpH-nJPhg', style='padding-top:7px; padding-left:10px')
+          a.header-social-links(href='https://www.youtube.com/channel/UCUntA9ZEzQAn28JpH-nJPhg')
             i.fa.fa-youtube
         li
-          a(href='./', style='padding-top:7px; padding-left:10px')
+          a.header-social-links(href='./')
             i.fa.fa-linkedin
         li.row-end
-          a(href='https://plus.google.com/u/0/105282782323020169217/', style='padding-top:7px; padding-left:10px')
+          a.header-social-links(href='https://plus.google.com/u/0/105282782323020169217/')
             i.fa.fa-google-plus
       ul.nav.navbar-nav.pull-right
         li.active.nav-item
