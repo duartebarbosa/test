@@ -19,28 +19,30 @@
               h3.title Get in touch
               p
                 | We’d love to hear from you. Use the following form or contact us directly by e-mail or telephone.
-              form
+              form(action='//formspree.io/info@muziekvooreenleven.nl', method='POST')
+                input(type='hidden', name='_next', value='/')
+                input(type='hidden', name='_subject', value='New contact from the website!')
                 .form-group.name
                   label(for='name') Name
-                  input#name.form-control(type='text', placeholder='Enter your name')
+                  input#name.form-control(type='text', name='name', placeholder='Enter your name')
                 // //form-group
                 .form-group.email
                   label(for='email')
                     | Email
                     span.required *
-                  input#email.form-control(type='email', placeholder='Enter your email')
+                  input#email.form-control(type='email', name='_replyto', placeholder='Enter your email')
                 // //form-group
                 .form-group.phone
                   label(for='phone') Phone
-                  input#phone.form-control(type='tel', placeholder='Enter your contact number')
+                  input#phone.form-control(type='tel', name='_tel', placeholder='Enter your contact number')
                 // //form-group
                 .form-group.message
                   label(for='message')
                     | Message
                     span.required *
-                  textarea#message.form-control(rows='6', placeholder='Enter your message here...')
+                  textarea#message.form-control(type='text', name='_message', rows='6', placeholder='Enter your message here...')
                 // //form-group
-                button.btn.btn-theme(type='submit') Send message
+                button.btn.btn-theme(type='submit', value='Send') Send message
             // //contact-form
             aside.page-sidebar.col-md-3.col-md-offset-1.col-sm-4.col-sm-offset-1
               section.widget.has-divider(style='background:#fff')
@@ -76,4 +78,3 @@
       // //page-wrapper
     // //content
     // //wrapper
-    script(async='', defer='', src='./assets/js/jquery.placeholder.min.js')
