@@ -1,0 +1,25 @@
+.wrapper
+  != partial("_navbar")
+  // ******CONTENT******
+  .content.container
+    .page-wrapper
+      header.page-heading.clearfix
+        h1.heading-title.pull-left Jaarverslagen
+        .breadcrumbs.pull-right
+          ul.breadcrumbs-list
+            li.breadcrumbs-label You are here:
+            li
+              a(href='./') Jaarverslagen
+              i.fa.fa-angle-right
+            li.current Jaarverslagen
+      .page-content
+        .row
+          article.contact-form.col-md-8.col-sm-7.page-row
+            ul
+              li
+                a(href='./assets/docs/Jaarrek14.pdf') Jaarverslagen 2014 
+                  i.fa.fa-file-pdf-o
+              li
+                a(href='./assets/docs/Jaarrek15.pdf') Jaarverslagen 2015 
+                  i.fa.fa-file-pdf-o
+          != partial("_testimonials.jade")
